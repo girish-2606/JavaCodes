@@ -50,5 +50,6 @@ class Addition implements Runnable {
             e.printStackTrace();
         }
         System.out.println("Addition Activity Ended");
+        sc.close();
     }
 }

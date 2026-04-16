@@ -14,5 +14,6 @@ public class Count {
         int inserFirst = s.nextInt();
         pq.add(inserFirst);
         System.out.println("Number of elements in the PriorityQueue: "+pq.size());
+        s.close();
     }
 }

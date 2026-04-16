@@ -16,5 +16,6 @@ public class CollectionsMax {
         int min = Collections.min(list);
         System.out.println("Minimum element: " + min);  
         System.out.println("Maximum element: " + max);
+        sc.close();
     }
 }

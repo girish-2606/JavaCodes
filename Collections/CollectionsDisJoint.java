@@ -15,5 +15,6 @@ public class CollectionsDisJoint {
         Collections.addAll(list2, str2.split(" "));
         boolean isDisjoint = Collections.disjoint(list1, list2);
         System.out.println(isDisjoint);
+        sc.close();
     }
 }

@@ -5,17 +5,18 @@ import java.util.Scanner;
 
 public class hashCodePerson {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        HashSet<Person> set = new HashSet<>();
-        for (int i = 0; i < n; i++) {
-            String name = sc.next();
-            int age = sc.nextInt();
-            set.add(new Person(name, age));
-        }
-        System.out.println("Unique people in the HashSet:");
-        for (Person person : set) {
-            System.out.println(person);
+        try (Scanner sc = new Scanner(System.in)) {
+            int n = sc.nextInt();
+            HashSet<Person> set = new HashSet<>();
+            for (int i = 0; i < n; i++) {
+                String name = sc.next();
+                int age = sc.nextInt();
+                set.add(new Person(name, age));
+            }
+            System.out.println("Unique people in the HashSet:");
+            for (Person person : set) {
+                System.out.println(person);
+            }
         }
     }
 }

@@ -17,5 +17,6 @@ public class hashset {
         System.out.println(set);
         boolean contains50 = set.contains(50);
         System.out.println("Contains 50: " + contains50);
+        sc.close();
     }
 }

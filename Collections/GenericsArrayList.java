@@ -7,8 +7,6 @@ public class GenericsArrayList {
         Scanner sc = new Scanner(System.in);
 
         // 1. Read the number of elements
-        if (!sc.hasNextInt()) 
-            return;
         int n = sc.nextInt();
         
         // 2. Read the type of elements
