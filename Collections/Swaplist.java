@@ -28,7 +28,6 @@ public class Swaplist {
                 System.out.println(str1);
             }
         } catch (NumberFormatException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
